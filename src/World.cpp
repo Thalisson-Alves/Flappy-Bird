@@ -81,15 +81,6 @@ void World::draw()
     m_window.draw(*m_bird);
     
     m_window.draw(m_baseSprite);
-    
-    // Limiting user view
-    auto bounds = m_backgroundSprite.getGlobalBounds();
-    sf::RectangleShape leftSide(sf::Vector2f(bounds.left, bounds.height));
-    leftSide.setFillColor(sf::Color::Black);
-    auto rightSide = leftSide;
-    rightSide.setPosition(bounds.left + bounds.width, 0.0f);
-    m_window.draw(leftSide);
-    m_window.draw(rightSide);
 }
 
 void World::spawnPipe()
