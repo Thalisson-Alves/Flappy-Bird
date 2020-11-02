@@ -1,0 +1,45 @@
+#ifndef BIRD_H
+#define BIRD_H
+
+#include "ResourceHolder.h"
+#include "ResourceIdentifiers.h"
+#include "Entity.h"
+#include "Utility.h"
+
+#include <SFML/Graphics.hpp>
+
+#include <memory>
+
+class Bird : public Entity
+{
+public:
+	typedef std::unique_ptr<Bird> Ptr;
+
+	enum class States
+	{
+		Flying,
+		Falling,
+		None
+	};
+
+public:
+	Bird(const TextureHolder&);
+
+	float getWidth() const;
+	float getHeight() const;
+
+	Bird::States getState() const;
+	void setState(Bird::States);
+
+	virtual void update(sf::Time);
+
+	sf::FloatRect getBoundingRect() const;
+
+	virtual void draw(sf::RenderTarget&, sf::RenderStates) const;
+
+private:
+	sf::Sprite m_sprite;
+	Bird::States m_state;
+};
+
+#endif
