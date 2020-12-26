@@ -33,3 +33,6 @@
 
 # Assets
 Media/*
+
+# CMake
+build/*
