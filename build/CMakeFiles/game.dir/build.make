@@ -61,10 +61,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird
+CMAKE_SOURCE_DIR = C:\Users\thali\prog\GitHub\Flappy-Bird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build
+CMAKE_BINARY_DIR = C:\Users\thali\prog\GitHub\Flappy-Bird\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -78,226 +78,240 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\main.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\main.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\main.cpp
 
 CMakeFiles/game.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\main.cpp > CMakeFiles\game.dir\src\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\main.cpp > CMakeFiles\game.dir\src\main.cpp.i
 
 CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\main.cpp -o CMakeFiles\game.dir\src\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\main.cpp -o CMakeFiles\game.dir\src\main.cpp.s
 
 CMakeFiles/game.dir/src/Application.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Application.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Application.cpp.obj: ../src/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/Application.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Application.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/Application.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Application.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Application.cpp
 
 CMakeFiles/game.dir/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Application.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Application.cpp > CMakeFiles\game.dir\src\Application.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Application.cpp > CMakeFiles\game.dir\src\Application.cpp.i
 
 CMakeFiles/game.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Application.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Application.cpp -o CMakeFiles\game.dir\src\Application.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Application.cpp -o CMakeFiles\game.dir\src\Application.cpp.s
 
 CMakeFiles/game.dir/src/Bird.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Bird.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Bird.cpp.obj: ../src/Bird.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/Bird.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Bird.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Bird.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/Bird.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Bird.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Bird.cpp
 
 CMakeFiles/game.dir/src/Bird.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Bird.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Bird.cpp > CMakeFiles\game.dir\src\Bird.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Bird.cpp > CMakeFiles\game.dir\src\Bird.cpp.i
 
 CMakeFiles/game.dir/src/Bird.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Bird.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Bird.cpp -o CMakeFiles\game.dir\src\Bird.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Bird.cpp -o CMakeFiles\game.dir\src\Bird.cpp.s
 
 CMakeFiles/game.dir/src/Entity.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Entity.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Entity.cpp.obj: ../src/Entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/Entity.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Entity.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/Entity.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Entity.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Entity.cpp
 
 CMakeFiles/game.dir/src/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Entity.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Entity.cpp > CMakeFiles\game.dir\src\Entity.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Entity.cpp > CMakeFiles\game.dir\src\Entity.cpp.i
 
 CMakeFiles/game.dir/src/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Entity.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Entity.cpp -o CMakeFiles\game.dir\src\Entity.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Entity.cpp -o CMakeFiles\game.dir\src\Entity.cpp.s
 
 CMakeFiles/game.dir/src/Pipe.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Pipe.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Pipe.cpp.obj: ../src/Pipe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/Pipe.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Pipe.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Pipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/Pipe.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Pipe.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Pipe.cpp
 
 CMakeFiles/game.dir/src/Pipe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Pipe.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Pipe.cpp > CMakeFiles\game.dir\src\Pipe.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Pipe.cpp > CMakeFiles\game.dir\src\Pipe.cpp.i
 
 CMakeFiles/game.dir/src/Pipe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Pipe.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Pipe.cpp -o CMakeFiles\game.dir\src\Pipe.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Pipe.cpp -o CMakeFiles\game.dir\src\Pipe.cpp.s
 
 CMakeFiles/game.dir/src/Random.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Random.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Random.cpp.obj: ../src/Random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/Random.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Random.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/Random.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Random.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Random.cpp
 
 CMakeFiles/game.dir/src/Random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Random.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Random.cpp > CMakeFiles\game.dir\src\Random.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Random.cpp > CMakeFiles\game.dir\src\Random.cpp.i
 
 CMakeFiles/game.dir/src/Random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Random.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Random.cpp -o CMakeFiles\game.dir\src\Random.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Random.cpp -o CMakeFiles\game.dir\src\Random.cpp.s
 
 CMakeFiles/game.dir/src/Utility.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Utility.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Utility.cpp.obj: ../src/Utility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/Utility.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Utility.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/Utility.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Utility.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Utility.cpp
 
 CMakeFiles/game.dir/src/Utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Utility.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Utility.cpp > CMakeFiles\game.dir\src\Utility.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Utility.cpp > CMakeFiles\game.dir\src\Utility.cpp.i
 
 CMakeFiles/game.dir/src/Utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Utility.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Utility.cpp -o CMakeFiles\game.dir\src\Utility.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Utility.cpp -o CMakeFiles\game.dir\src\Utility.cpp.s
 
 CMakeFiles/game.dir/src/State.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/State.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/State.cpp.obj: ../src/State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/State.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\State.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/State.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\State.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\State.cpp
 
 CMakeFiles/game.dir/src/State.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/State.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\State.cpp > CMakeFiles\game.dir\src\State.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\State.cpp > CMakeFiles\game.dir\src\State.cpp.i
 
 CMakeFiles/game.dir/src/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/State.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\State.cpp -o CMakeFiles\game.dir\src\State.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\State.cpp -o CMakeFiles\game.dir\src\State.cpp.s
 
 CMakeFiles/game.dir/src/StateStack.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/StateStack.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/StateStack.cpp.obj: ../src/StateStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.dir/src/StateStack.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\StateStack.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\StateStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.dir/src/StateStack.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\StateStack.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\StateStack.cpp
 
 CMakeFiles/game.dir/src/StateStack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/StateStack.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\StateStack.cpp > CMakeFiles\game.dir\src\StateStack.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\StateStack.cpp > CMakeFiles\game.dir\src\StateStack.cpp.i
 
 CMakeFiles/game.dir/src/StateStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/StateStack.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\StateStack.cpp -o CMakeFiles\game.dir\src\StateStack.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\StateStack.cpp -o CMakeFiles\game.dir\src\StateStack.cpp.s
 
 CMakeFiles/game.dir/src/MenuState.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/MenuState.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/MenuState.cpp.obj: ../src/MenuState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.dir/src/MenuState.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\MenuState.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\MenuState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.dir/src/MenuState.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\MenuState.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\MenuState.cpp
 
 CMakeFiles/game.dir/src/MenuState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/MenuState.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\MenuState.cpp > CMakeFiles\game.dir\src\MenuState.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\MenuState.cpp > CMakeFiles\game.dir\src\MenuState.cpp.i
 
 CMakeFiles/game.dir/src/MenuState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/MenuState.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\MenuState.cpp -o CMakeFiles\game.dir\src\MenuState.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\MenuState.cpp -o CMakeFiles\game.dir\src\MenuState.cpp.s
 
 CMakeFiles/game.dir/src/GameState.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/GameState.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/GameState.cpp.obj: ../src/GameState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.dir/src/GameState.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\GameState.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\GameState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.dir/src/GameState.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\GameState.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\GameState.cpp
 
 CMakeFiles/game.dir/src/GameState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/GameState.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\GameState.cpp > CMakeFiles\game.dir\src\GameState.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\GameState.cpp > CMakeFiles\game.dir\src\GameState.cpp.i
 
 CMakeFiles/game.dir/src/GameState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/GameState.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\GameState.cpp -o CMakeFiles\game.dir\src\GameState.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\GameState.cpp -o CMakeFiles\game.dir\src\GameState.cpp.s
 
 CMakeFiles/game.dir/src/PauseState.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/PauseState.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/PauseState.cpp.obj: ../src/PauseState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.dir/src/PauseState.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\PauseState.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\PauseState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.dir/src/PauseState.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\PauseState.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\PauseState.cpp
 
 CMakeFiles/game.dir/src/PauseState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/PauseState.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\PauseState.cpp > CMakeFiles\game.dir\src\PauseState.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\PauseState.cpp > CMakeFiles\game.dir\src\PauseState.cpp.i
 
 CMakeFiles/game.dir/src/PauseState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/PauseState.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\PauseState.cpp -o CMakeFiles\game.dir\src\PauseState.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\PauseState.cpp -o CMakeFiles\game.dir\src\PauseState.cpp.s
 
 CMakeFiles/game.dir/src/World.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/World.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/World.cpp.obj: ../src/World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/World.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\World.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/World.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\World.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\World.cpp
 
 CMakeFiles/game.dir/src/World.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/World.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\World.cpp > CMakeFiles\game.dir\src\World.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\World.cpp > CMakeFiles\game.dir\src\World.cpp.i
 
 CMakeFiles/game.dir/src/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/World.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\World.cpp -o CMakeFiles\game.dir\src\World.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\World.cpp -o CMakeFiles\game.dir\src\World.cpp.s
 
 CMakeFiles/game.dir/src/Component.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Component.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Component.cpp.obj: ../src/Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.dir/src/Component.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Component.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.dir/src/Component.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Component.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Component.cpp
 
 CMakeFiles/game.dir/src/Component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Component.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Component.cpp > CMakeFiles\game.dir\src\Component.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Component.cpp > CMakeFiles\game.dir\src\Component.cpp.i
 
 CMakeFiles/game.dir/src/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Component.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Component.cpp -o CMakeFiles\game.dir\src\Component.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Component.cpp -o CMakeFiles\game.dir\src\Component.cpp.s
 
 CMakeFiles/game.dir/src/Button.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Button.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Button.cpp.obj: ../src/Button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.dir/src/Button.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Button.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.dir/src/Button.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Button.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Button.cpp
 
 CMakeFiles/game.dir/src/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Button.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Button.cpp > CMakeFiles\game.dir\src\Button.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Button.cpp > CMakeFiles\game.dir\src\Button.cpp.i
 
 CMakeFiles/game.dir/src/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Button.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Button.cpp -o CMakeFiles\game.dir\src\Button.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Button.cpp -o CMakeFiles\game.dir\src\Button.cpp.s
 
 CMakeFiles/game.dir/src/Container.cpp.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Container.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
 CMakeFiles/game.dir/src/Container.cpp.obj: ../src/Container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game.dir/src/Container.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Container.cpp.obj -c C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game.dir/src/Container.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\Container.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\Container.cpp
 
 CMakeFiles/game.dir/src/Container.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Container.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Container.cpp > CMakeFiles\game.dir\src\Container.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\Container.cpp > CMakeFiles\game.dir\src\Container.cpp.i
 
 CMakeFiles/game.dir/src/Container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Container.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\src\Container.cpp -o CMakeFiles\game.dir\src\Container.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\Container.cpp -o CMakeFiles\game.dir\src\Container.cpp.s
+
+CMakeFiles/game.dir/src/GameOverState.cpp.obj: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/GameOverState.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
+CMakeFiles/game.dir/src/GameOverState.cpp.obj: ../src/GameOverState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/game.dir/src/GameOverState.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game.dir\src\GameOverState.cpp.obj -c C:\Users\thali\prog\GitHub\Flappy-Bird\src\GameOverState.cpp
+
+CMakeFiles/game.dir/src/GameOverState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/GameOverState.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\thali\prog\GitHub\Flappy-Bird\src\GameOverState.cpp > CMakeFiles\game.dir\src\GameOverState.cpp.i
+
+CMakeFiles/game.dir/src/GameOverState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/GameOverState.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\thali\prog\GitHub\Flappy-Bird\src\GameOverState.cpp -o CMakeFiles\game.dir\src\GameOverState.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -316,7 +330,8 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/src/World.cpp.obj" \
 "CMakeFiles/game.dir/src/Component.cpp.obj" \
 "CMakeFiles/game.dir/src/Button.cpp.obj" \
-"CMakeFiles/game.dir/src/Container.cpp.obj"
+"CMakeFiles/game.dir/src/Container.cpp.obj" \
+"CMakeFiles/game.dir/src/GameOverState.cpp.obj"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
@@ -337,6 +352,7 @@ game.exe: CMakeFiles/game.dir/src/World.cpp.obj
 game.exe: CMakeFiles/game.dir/src/Component.cpp.obj
 game.exe: CMakeFiles/game.dir/src/Button.cpp.obj
 game.exe: CMakeFiles/game.dir/src/Container.cpp.obj
+game.exe: CMakeFiles/game.dir/src/GameOverState.cpp.obj
 game.exe: CMakeFiles/game.dir/build.make
 game.exe: C:/Program\ Files\ (x86)/SFML/lib/libsfml-audio.a
 game.exe: C:/Program\ Files\ (x86)/SFML/lib/libsfml-graphics.a
@@ -346,7 +362,7 @@ game.exe: C:/Program\ Files\ (x86)/SFML/lib/libsfml-system.a
 game.exe: CMakeFiles/game.dir/linklibs.rsp
 game.exe: CMakeFiles/game.dir/objects1.rsp
 game.exe: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -359,6 +375,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles\game.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\thali\prog\GitHub\Flappy-Bird C:\Users\thali\prog\GitHub\Flappy-Bird C:\Users\thali\prog\GitHub\Flappy-Bird\build C:\Users\thali\prog\GitHub\Flappy-Bird\build C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles\game.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game.dir/depend
 

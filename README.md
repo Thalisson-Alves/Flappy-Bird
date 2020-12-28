@@ -35,7 +35,7 @@ There is an executable for windows in the "Game.zip" folder
 
 # Features
 Some features that I'm working on
-- [ ] End game state
+- [X] End game state
 - [ ] Score
 - [ ] Neural network
     - [ ] Load a model

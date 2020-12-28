@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird
+CMAKE_SOURCE_DIR = C:\Users\thali\prog\GitHub\Flappy-Bird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build
+CMAKE_BINARY_DIR = C:\Users\thali\prog\GitHub\Flappy-Bird\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles C:\Users\thali\prog\GitHub\Flappy-Bird\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\thali\OneDrive\Documentos\Personal_projects\cpp_games\flappy_bird\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\thali\prog\GitHub\Flappy-Bird\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -302,6 +302,33 @@ src/Entity.s: src/Entity.cpp.s
 src/Entity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/Entity.cpp.s
 .PHONY : src/Entity.cpp.s
+
+src/GameOverState.obj: src/GameOverState.cpp.obj
+
+.PHONY : src/GameOverState.obj
+
+# target to build an object file
+src/GameOverState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/GameOverState.cpp.obj
+.PHONY : src/GameOverState.cpp.obj
+
+src/GameOverState.i: src/GameOverState.cpp.i
+
+.PHONY : src/GameOverState.i
+
+# target to preprocess a source file
+src/GameOverState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/GameOverState.cpp.i
+.PHONY : src/GameOverState.cpp.i
+
+src/GameOverState.s: src/GameOverState.cpp.s
+
+.PHONY : src/GameOverState.s
+
+# target to generate assembly for a file
+src/GameOverState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/GameOverState.cpp.s
+.PHONY : src/GameOverState.cpp.s
 
 src/GameState.obj: src/GameState.cpp.obj
 
@@ -600,6 +627,9 @@ help:
 	@echo ... src/Entity.obj
 	@echo ... src/Entity.i
 	@echo ... src/Entity.s
+	@echo ... src/GameOverState.obj
+	@echo ... src/GameOverState.i
+	@echo ... src/GameOverState.s
 	@echo ... src/GameState.obj
 	@echo ... src/GameState.i
 	@echo ... src/GameState.s

@@ -18,7 +18,12 @@ bool GameState::handleEvent(const sf::Event& event)
 
 bool GameState::update(sf::Time dt)
 {
-    world.update(dt);
+    if (world.getState() == World::States::GameOver) {
+        requestStackPush(StatesId::GameOver);
+        world.setState(World::States::Waiting);
+    }
+    else
+        world.update(dt);
 
     return true;
 }

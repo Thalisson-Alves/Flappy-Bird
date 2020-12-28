@@ -26,6 +26,7 @@ set (SOURCE_FILES
 	src/Component.cpp
 	src/Button.cpp
 	src/Container.cpp
+	src/GameOverState.cpp
 )
 
 set (SFML_DIR "C:/SFML/")

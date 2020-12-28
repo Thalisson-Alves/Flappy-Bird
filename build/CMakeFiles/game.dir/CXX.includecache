@@ -676,15 +676,15 @@ SFML/Config.hpp
 
 C:/Program Files (x86)/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Button.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Button.h
 Component.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Component.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Component.h
 ResourceHolder.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceHolder.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceHolder.h
 ResourceIdentifiers.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceIdentifiers.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceIdentifiers.h
 Utility.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Utility.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Utility.h
 SFML/Graphics.hpp
 -
 memory
@@ -692,19 +692,19 @@ memory
 functional
 -
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Component.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Component.h
 SFML/Graphics.hpp
 -
 memory
 -
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Container.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Container.h
 Component.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Component.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Component.h
 ResourceHolder.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceHolder.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceHolder.h
 ResourceIdentifiers.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceIdentifiers.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceIdentifiers.h
 SFML/Graphics.hpp
 -
 memory
@@ -712,27 +712,27 @@ memory
 vector
 -
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/MenuState.cpp
-MenuState.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/MenuState.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/GameOverState.cpp
+GameOverState.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/GameOverState.h
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/MenuState.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/GameOverState.h
 Utility.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Utility.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Utility.h
 State.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/State.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/State.h
 StateStack.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/StateStack.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/StateStack.h
 Container.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Container.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Container.h
 Button.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Button.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Button.h
 SFML/Graphics.hpp
 -
 vector
 -
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceHolder.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceHolder.h
 SFML/Graphics.hpp
 -
 memory
@@ -744,31 +744,31 @@ string
 stdexcept
 -
 ResourceHolder.inl
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceHolder.inl
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceHolder.inl
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceHolder.inl
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceHolder.inl
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceIdentifiers.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceIdentifiers.h
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/State.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/State.h
 StateIdentifiers.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/StateIdentifiers.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/StateIdentifiers.h
 ResourceHolder.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceHolder.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceHolder.h
 ResourceIdentifiers.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/ResourceIdentifiers.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/ResourceIdentifiers.h
 SFML/Graphics.hpp
 -
 memory
 -
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/StateIdentifiers.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/StateIdentifiers.h
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/StateStack.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/StateStack.h
 State.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/State.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/State.h
 StateIdentifiers.h
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/StateIdentifiers.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/StateIdentifiers.h
 SFML/Graphics.hpp
 -
 map
@@ -778,7 +778,7 @@ vector
 functional
 -
 
-C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/src/Utility.h
+C:/Users/thali/prog/GitHub/Flappy-Bird/src/Utility.h
 SFML/Graphics.hpp
 -
 

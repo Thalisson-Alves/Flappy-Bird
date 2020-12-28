@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/Component.cpp.obj"
   "CMakeFiles/game.dir/src/Container.cpp.obj"
   "CMakeFiles/game.dir/src/Entity.cpp.obj"
+  "CMakeFiles/game.dir/src/GameOverState.cpp.obj"
   "CMakeFiles/game.dir/src/GameState.cpp.obj"
   "CMakeFiles/game.dir/src/MenuState.cpp.obj"
   "CMakeFiles/game.dir/src/PauseState.cpp.obj"

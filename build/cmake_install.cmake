@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird
+# Install script for directory: C:/Users/thali/prog/GitHub/Flappy-Bird
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/thali/OneDrive/Documentos/Personal_projects/cpp_games/flappy_bird/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/thali/prog/GitHub/Flappy-Bird/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

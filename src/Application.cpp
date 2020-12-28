@@ -7,7 +7,6 @@ Application::Application() :
     m_stateStack(State::Context(m_window, m_textures, m_fonts)),
     m_timePerFrame(sf::seconds(1.0f / 60.0f))
 {
-    // game width = 288, game height = 512
     m_window.setKeyRepeatEnabled(false);
 
     m_textures.load(TexturesId::Background, "../Media/Textures/Background.png");
@@ -73,4 +72,5 @@ void Application::registerStates()
     m_stateStack.registerState<MenuState>(StatesId::Menu);
     m_stateStack.registerState<PauseState>(StatesId::Pause);
     m_stateStack.registerState<GameState>(StatesId::Game);
+    m_stateStack.registerState<GameOverState>(StatesId::GameOver);
 }

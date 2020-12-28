@@ -6,7 +6,8 @@ enum class StatesId
     None,
     Menu,
     Game,
-    Pause
+    Pause,
+    GameOver
 };
 
 #endif

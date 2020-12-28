@@ -7,6 +7,7 @@
 #include "MenuState.h"
 #include "GameState.h"
 #include "PauseState.h"
+#include "GameOverState.h"
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>

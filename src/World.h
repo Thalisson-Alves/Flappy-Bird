@@ -15,17 +15,33 @@
 class World : sf::NonCopyable
 {
 public:
+    enum class States
+    {
+        Waiting,
+        Running,
+        GameOver
+    };
+
+public:
     World(sf::RenderWindow&);
 
     void handleEvent(const sf::Event&);
     void update(sf::Time);
     void draw();
 
+    World::States getState() const;
+    void setState(World::States);
+
 private:
     void loadResources();
 
     void spawnPipe();
     void handleCollisions();
+
+    void resetEntitiesPositions();
+    void respawnPipeOutsideView();
+    void correctBirdPosition();
+    void correctBasePosition();
 
 private:
     sf::RenderWindow& m_window;
@@ -39,6 +55,8 @@ private:
     std::deque<Pipe::Ptr> m_pipes;
     const float m_pipeSpeed;
     const float m_spawnDistance;
+
+    World::States m_state;
 
     Random m_rng;
 };
