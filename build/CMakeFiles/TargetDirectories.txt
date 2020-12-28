@@ -1,3 +1,0 @@
-C:/Users/thali/prog/GitHub/Flappy-Bird/build/CMakeFiles/game.dir
-C:/Users/thali/prog/GitHub/Flappy-Bird/build/CMakeFiles/edit_cache.dir
-C:/Users/thali/prog/GitHub/Flappy-Bird/build/CMakeFiles/rebuild_cache.dir
