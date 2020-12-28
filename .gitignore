@@ -32,7 +32,8 @@
 *.app
 
 # Assets
-Media/*
+Media/
 
 # CMake
-build/*
+build/
+CMakeLists.txt
