@@ -2,7 +2,7 @@
 
 GameState::GameState(StateStack& stack, State::Context context) :
     State(stack, context),
-    world(*context.window)
+    world(*context.window, *context.fonts)
 {
 }
 

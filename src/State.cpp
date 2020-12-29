@@ -1,7 +1,9 @@
 #include "State.h"
 #include "StateStack.h"
 
-State::State(StateStack& stack, Context context) : m_stack(&stack), m_context(context)
+State::State(StateStack& stack, Context context) :
+    m_stack(&stack),
+    m_context(context)
 {
 }
 
@@ -29,6 +31,9 @@ State::Context State::getContext() const
     return m_context;
 }
 
-State::Context::Context(sf::RenderWindow& window, TextureHolder& textures, FontHolder& fonts) : window(&window), textures(&textures), fonts(&fonts)
+State::Context::Context(sf::RenderWindow& window, TextureHolder& textures, FontHolder& fonts) :
+    window(&window),
+    textures(&textures),
+    fonts(&fonts)
 {
 }

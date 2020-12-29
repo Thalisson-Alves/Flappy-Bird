@@ -31,8 +31,6 @@ public:
 	Bird::States getState() const;
 	void setState(Bird::States);
 
-	virtual void update(sf::Time);
-
 	sf::FloatRect getBoundingRect() const;
 
 	virtual void draw(sf::RenderTarget&, sf::RenderStates) const;

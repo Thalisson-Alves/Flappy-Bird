@@ -27,17 +27,6 @@ void Bird::setState(Bird::States state)
 	m_state = state;
 }
 
-void Bird::update(sf::Time dt)
-{
-	if (m_state == Bird::States::Falling) {
-		accelerate(0.0f, 20.0f);
-	}
-	else if (m_state == Bird::States::Flying) {
-		setVelocity(0.0f, -350.0f);
-		m_state = Bird::States::Falling;
-	}
-	Entity::update(dt);
-}
 
 sf::FloatRect Bird::getBoundingRect() const
 {

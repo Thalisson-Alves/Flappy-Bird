@@ -1,6 +1,7 @@
 #ifndef WORLD_H
 #define WORLD_H
 
+#include "Utility.h"
 #include "Pipe.h"
 #include "Bird.h"
 #include "ResourceHolder.h"
@@ -23,7 +24,7 @@ public:
     };
 
 public:
-    World(sf::RenderWindow&);
+    World(sf::RenderWindow&, FontHolder&);
 
     void handleEvent(const sf::Event&);
     void update(sf::Time);
@@ -43,6 +44,8 @@ private:
     void correctBirdPosition();
     void correctBasePosition();
 
+    void updateScore();
+
 private:
     sf::RenderWindow& m_window;
     TextureHolder m_textures;
@@ -55,8 +58,12 @@ private:
     std::deque<Pipe::Ptr> m_pipes;
     const float m_pipeSpeed;
     const float m_spawnDistance;
+    const float m_gravity;
 
     World::States m_state;
+
+    int m_score;
+    sf::Text m_textScore;
 
     Random m_rng;
 };
