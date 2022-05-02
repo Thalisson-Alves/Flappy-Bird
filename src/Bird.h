@@ -12,32 +12,32 @@
 
 class Bird : public Entity
 {
-public:
-	typedef std::unique_ptr<Bird> Ptr;
+ public:
+    typedef std::unique_ptr<Bird> Ptr;
 
-	enum class States
-	{
-		Flying,
-		Falling,
-		None
-	};
+    enum class States
+    {
+        Flying,
+        Falling,
+        None
+    };
 
-public:
-	Bird(const TextureHolder&);
+ public:
+    explicit Bird(const TextureHolder&);
 
-	float getWidth() const;
-	float getHeight() const;
+    float getWidth() const;
+    float getHeight() const;
 
-	Bird::States getState() const;
-	void setState(Bird::States);
+    Bird::States getState() const;
+    void setState(Bird::States);
 
-	sf::FloatRect getBoundingRect() const;
+    sf::FloatRect getBoundingRect() const;
 
-	virtual void draw(sf::RenderTarget&, sf::RenderStates) const;
+    void draw(sf::RenderTarget&, sf::RenderStates) const override;
 
-private:
-	sf::Sprite m_sprite;
-	Bird::States m_state;
+ private:
+    sf::Sprite m_sprite;
+    Bird::States m_state;
 };
 
 #endif

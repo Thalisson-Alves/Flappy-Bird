@@ -20,7 +20,7 @@ GameOverState::GameOverState(StateStack& stack, State::Context context) :
     restartButton->scaleSprite(1.0f, 2.0f);
     restartButton->setCallback([this]()
     {
-        requestStackPop();
+      requestStackPop();
     });
 
     auto menuButton = std::make_shared<GUI::Button>(*context.textures, *context.fonts);
@@ -29,8 +29,8 @@ GameOverState::GameOverState(StateStack& stack, State::Context context) :
     menuButton->scaleSprite(1.0f, 2.0f);
     menuButton->setCallback([this]()
     {
-        requestStackClear();
-        requestStackPush(StatesId::Menu);
+      requestStackClear();
+      requestStackPush(StatesId::Menu);
     });
 
     m_GUIContainer.pack(restartButton);

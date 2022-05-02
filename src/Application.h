@@ -24,7 +24,9 @@ private:
     void update(sf::Time);
     void draw();
 
+private:
     void registerStates();
+    void loadResources();
 
 private:
     const sf::Time m_timePerFrame;

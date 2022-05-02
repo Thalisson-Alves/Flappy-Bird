@@ -45,6 +45,7 @@ private:
     void correctBasePosition();
 
     void updateScore();
+    void respawnAllPipes();
 
 private:
     sf::RenderWindow& m_window;
@@ -64,8 +65,6 @@ private:
 
     int m_score;
     sf::Text m_textScore;
-
-    Random m_rng;
 };
 
 #endif

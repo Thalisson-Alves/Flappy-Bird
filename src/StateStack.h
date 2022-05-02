@@ -41,16 +41,16 @@ private:
     void applyPendingChanges();
 
 private:
-    struct PendingChanges
+    struct PendingChange
     {
-        explicit PendingChanges(Action, StatesId=StatesId::None);
+        explicit PendingChange(Action, StatesId=StatesId::None);
 
         Action action;
         StatesId statesId;
     };
 private:
     std::vector<State::Ptr> m_stack;
-    std::vector<PendingChanges> m_pendingList;
+    std::vector<PendingChange> m_pendingChanges;
 
     State::Context m_context;
     std::map<StatesId, std::function<State::Ptr()>> m_factories;

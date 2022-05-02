@@ -31,8 +31,9 @@
 *.out
 *.app
 
-# Assets
-Media/
-
 # CMake
 build/
+cmake-build-debug/
+
+# IDE
+.idea/

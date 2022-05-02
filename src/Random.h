@@ -5,14 +5,14 @@
 
 class Random
 {
-public:
-	Random();
+ public:
+    static int getInt(int low, int high);
+    static float getFloat();
+    static float getFloat(float low, float high);
 
-	int getInt(int low, int high);
-	float getFloat(float low, float high);
-
-private:
-	std::mt19937 m_engine;
+ private:
+    static std::mt19937 s_engine;
+    static std::uniform_int_distribution<std::mt19937::result_type> s_distribution;
 };
 
 #endif
